@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  padding: 1em;
+  margin: 0;
+  font-size: 10pt;
+  max-width: 500px;
+  background: black;
+  color: mintcream;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: skyblue;
+}
+p code {
+  background-color: #111;
+  padding: 3px;
+  border-radius: 3px;
+}
+pre code {
+  display: block;
+  padding: 1em;
+}
+blockquote {
+  margin: 0;
+  padding: 1em;
+  border-left: 3px solid darkslategray;
+}
+
