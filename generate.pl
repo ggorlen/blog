@@ -27,7 +27,7 @@ while (my $file = readdir(DIR)) {
 
     my $date = $1;
 
-    my $post_header = "### $date [$blog_title](/index.html)";
+    my $post_header = "### $date [$blog_title](..)";
     my $text = read_file("$content_dir/$file");
 
     $file =~ s/\.md/.html/g;
